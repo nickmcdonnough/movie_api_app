@@ -1,0 +1,5 @@
+<center>
+  <% @data.each do |actor| %>
+    <a href="/actors/<%= actor['id']%>"><%= actor['name'] %></a><br>
+  <% end %>
+</center>

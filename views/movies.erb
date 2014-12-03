@@ -1,0 +1,5 @@
+<center>
+  <% @data.each do |movie| %>
+    <a href="/movies/<%= movie['id']%>"><%= movie['title'] %></a><br>
+  <% end %>
+</center>
